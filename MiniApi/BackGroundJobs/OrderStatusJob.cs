@@ -27,7 +27,8 @@ namespace MiniApi.BackGroundJobs
         {
              using var scope= _scopeFactory.CreateScope();
             var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-            var orders = await dbContext.Orders.Where(o => o.Status == OrderStatus.Pending).Take(5).ToListAsync();
+            DateTimeOffset correctDate = TimeZoneInfo.ConvertTime(DateTimeOffset.UtcNow.AddSeconds(-5),TimeZoneInfo.Local);
+            var orders = await dbContext.Orders.Where(o => o.Status == OrderStatus.Pending && o.CreatedDate<=correctDate).ToListAsync();
             if (!orders.Any())
             {
                 _logger.LogInformation("No pending orders found.");

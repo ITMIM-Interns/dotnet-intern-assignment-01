@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using MiniApi.Exceptions;
+using System.Net;
 
 namespace MiniApi.CustomMiddleware
 {
@@ -29,8 +30,12 @@ namespace MiniApi.CustomMiddleware
             string message = "";
             switch (exception)
             {
-                case NullReferenceException:
+                case NotFoundException:
                     statusCode = HttpStatusCode.NotFound;
+                    message = exception.Message;
+                    break;
+                case NullReferenceException:
+                    statusCode = HttpStatusCode.InternalServerError;
                     message = exception.Message;
                     break;
                 case ArgumentNullException:

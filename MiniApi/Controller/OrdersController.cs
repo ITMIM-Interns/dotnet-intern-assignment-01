@@ -21,8 +21,8 @@ namespace MiniApi.Controller
         [HttpPost]
         public async Task<ActionResult<int>> Add([FromBody] OrderCreateDto request)
         {
-            int result = await _orderService.AddAsync(request);
-            return Ok(result);
+            int id = await _orderService.AddAsync(request);
+            return CreatedAtAction(nameof(GetById), new {id=id},id);
         }
         [HttpGet]
         public async Task<ActionResult<PaginatedResult<OrderDto>>> GetOrdersWithPaginated([FromQuery]int page=1,[FromQuery]int pageSize = 10)
@@ -31,7 +31,7 @@ namespace MiniApi.Controller
             return Ok(response);
         }
         [HttpGet("{id}")]
-        public async Task<ActionResult<OrderDetailDto>> GetOrdersWithPaginated([FromRoute] int id)
+        public async Task<ActionResult<OrderDetailDto>> GetById([FromRoute] int id)
         {
             var response = await _orderService.GetByIdAsync(id);
             return Ok(response);

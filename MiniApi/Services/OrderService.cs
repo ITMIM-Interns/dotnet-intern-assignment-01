@@ -3,6 +3,7 @@ using MiniApi.Controller;
 using MiniApi.Datas;
 using MiniApi.Dtos.Orders;
 using MiniApi.Entites;
+using MiniApi.Exceptions;
 using MiniApi.ResponseModels;
 using MiniApi.Services.Interfaces;
 
@@ -38,11 +39,11 @@ namespace MiniApi.Services
             Order? order = new();
             if (hasTracking)
                 order = await _context.Orders.FirstOrDefaultAsync(o => o.Id == id);
-            order = await _context.Orders.AsNoTracking().FirstOrDefaultAsync(o => o.Id == id);
+            else order = await _context.Orders.AsNoTracking().FirstOrDefaultAsync(o => o.Id == id);
             if (order is null)
             {
                 _log.LogInformation("Order not Found ID: {id}",id);
-                throw new NullReferenceException("Order not found ");
+                throw new NotFoundException(ExceptionMessages.OrderNotFound);
             }
                 
             return new OrderDetailDto(order.Id, order.CustomerName, order.ProductName, order.CreatedDate.ToString(), order.Quantity, order.CurrentPrice);
@@ -55,7 +56,7 @@ namespace MiniApi.Services
                 pageSize = 10;
             int totalPage = (int)Math.Ceiling((double)ordersCount / pageSize);
             if (totalPage <= 0)
-                throw new Exception("Orders not found");
+                throw new NotFoundException(ExceptionMessages.OrderNotFound);
             var query = _context.Orders.AsNoTracking();
 
             IReadOnlyList<OrderDto> items =await query.OrderBy(x => x.Id).Skip((Math.Clamp(page, 1, totalPage) - 1)*pageSize)

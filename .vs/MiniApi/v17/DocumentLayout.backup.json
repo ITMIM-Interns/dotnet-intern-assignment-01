@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Hp\\Desktop\\MiniApi\\MiniApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Hp\\Desktop\\MiniApp\\dotnet-intern-assignment-01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|c:\\users\\hp\\desktop\\miniapi\\miniapi\\miniapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|c:\\users\\hp\\desktop\\miniapp\\dotnet-intern-assignment-01\\miniapi\\backgroundjobs\\orderstatusjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|solutionrelative:miniapi\\backgroundjobs\\orderstatusjob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|c:\\users\\hp\\desktop\\miniapp\\dotnet-intern-assignment-01\\miniapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|solutionrelative:miniapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|c:\\users\\hp\\desktop\\miniapi\\miniapi\\miniapi\\responsemodels\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|solutionrelative:miniapi\\responsemodels\\paginatedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|c:\\users\\hp\\desktop\\miniapi\\miniapi\\miniapi\\entites\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|solutionrelative:miniapi\\entites\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|c:\\users\\hp\\desktop\\miniapi\\miniapi\\miniapi\\controller\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|c:\\users\\hp\\desktop\\miniapp\\dotnet-intern-assignment-01\\miniapi\\controller\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|solutionrelative:miniapi\\controller\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|c:\\users\\hp\\desktop\\miniapi\\miniapi\\miniapi\\custommiddleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77DF20E6-4A7B-4A8B-AD14-1793D9577D0F}|MiniApi\\MiniApi.csproj|solutionrelative:miniapi\\custommiddleware\\globalexceptionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PaginatedResult.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\MiniApi\\MiniApi\\MiniApi\\ResponseModels\\PaginatedResult.cs",
-              "RelativeDocumentMoniker": "MiniApi\\ResponseModels\\PaginatedResult.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\MiniApi\\MiniApi\\MiniApi\\ResponseModels\\PaginatedResult.cs*",
-              "RelativeToolTip": "MiniApi\\ResponseModels\\PaginatedResult.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T08:56:41.226Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -52,53 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\MiniApi\\MiniApi\\MiniApi\\Entites\\Order.cs",
-              "RelativeDocumentMoniker": "MiniApi\\Entites\\Order.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\MiniApi\\MiniApi\\MiniApi\\Entites\\Order.cs",
-              "RelativeToolTip": "MiniApi\\Entites\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T09:02:35.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\MiniApi\\MiniApi\\MiniApi\\Controller\\OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\MiniApp\\dotnet-intern-assignment-01\\MiniApi\\Controller\\OrdersController.cs",
               "RelativeDocumentMoniker": "MiniApi\\Controller\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\MiniApi\\MiniApi\\MiniApi\\Controller\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\MiniApp\\dotnet-intern-assignment-01\\MiniApi\\Controller\\OrdersController.cs",
               "RelativeToolTip": "MiniApi\\Controller\\OrdersController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAxwB8AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAABwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T08:31:04.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GlobalExceptionHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\MiniApi\\MiniApi\\MiniApi\\CustomMiddleware\\GlobalExceptionHandler.cs",
-              "RelativeDocumentMoniker": "MiniApi\\CustomMiddleware\\GlobalExceptionHandler.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\MiniApi\\MiniApi\\MiniApi\\CustomMiddleware\\GlobalExceptionHandler.cs",
-              "RelativeToolTip": "MiniApi\\CustomMiddleware\\GlobalExceptionHandler.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-08T08:34:47.578Z",
+              "WhenOpened": "2026-01-08T12:38:14.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\MiniApi\\MiniApi\\MiniApi\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "MiniApi\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\Hp\\Desktop\\MiniApi\\MiniApi\\MiniApi\\Services\\OrderService.cs*",
-              "RelativeToolTip": "MiniApi\\Services\\OrderService.cs*",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwDoAAAA3AAAAAAAAAA==",
+              "Title": "OrderStatusJob.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\MiniApp\\dotnet-intern-assignment-01\\MiniApi\\BackGroundJobs\\OrderStatusJob.cs",
+              "RelativeDocumentMoniker": "MiniApi\\BackGroundJobs\\OrderStatusJob.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\MiniApp\\dotnet-intern-assignment-01\\MiniApi\\BackGroundJobs\\OrderStatusJob.cs*",
+              "RelativeToolTip": "MiniApi\\BackGroundJobs\\OrderStatusJob.cs*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwB0AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-07T12:45:09.898Z",
+              "WhenOpened": "2026-01-08T12:38:11.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\Desktop\\MiniApp\\dotnet-intern-assignment-01\\MiniApi\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "MiniApi\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Hp\\Desktop\\MiniApp\\dotnet-intern-assignment-01\\MiniApi\\Services\\OrderService.cs",
+              "RelativeToolTip": "MiniApi\\Services\\OrderService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAADQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T12:37:54.522Z",
               "EditorCaption": ""
             }
           ]
